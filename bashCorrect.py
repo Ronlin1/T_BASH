@@ -77,3 +77,7 @@ print(matrix_3_by_3)
 #3D MATRIX
 matrix_3D = [[[i+j+k for k in range(3)] for j in range(3)] for i in range(3)]
 print(matrix_3D)
+
+#4D MATRIX
+matrix_4D = [[[[i+j+k+l for l in range(3)] for k in range(3)] for j in range(3)] for i in range(3)]
+print(matrix_4D)
